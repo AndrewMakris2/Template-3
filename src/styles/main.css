@@ -69,6 +69,27 @@
     border-bottom-color: var(--color-line);
   }
 
+  /* Hide the gallery strip's scrollbar (it still scrolls and swipes) */
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Slowly rotating text ring on the hero booking badge */
+  .badge-ring {
+    animation: spin 18s linear infinite;
+  }
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .badge-ring {
+      animation: none !important;
+    }
+  }
+
   .lightbox[open] {
     display: block;
   }

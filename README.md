@@ -5,10 +5,15 @@ plain HTML + vanilla JS, Tailwind CSS v4 and Vite. There's no backend, CMS, or
 booking system: every "Book" button links out to the stylist's existing
 booking platform.
 
-This is a **reskin of Template 1** (Minimalist / Editorial): same components,
-with a different `theme.js` (linen and sand neutrals, olive-charcoal, sage-olive
-accent, Fraunces + Work Sans), `content.js`, and images. No component code
-differs from Template 1.
+This template has its **own design** ("Organic magazine"): a type-led hero
+with an oversized name and a spinning booking badge, a swipeable horizontal
+gallery straight after the hero, an about card overlapping a rounded photo,
+service cards, staggered quotes, a dark rounded contact form, and a footer
+with an oversized wordmark.
+
+All five templates share the **same `content.js` format**, so a client's content
+can be moved into any of the designs unchanged. Each template has its own
+components.
 
 ---
 
