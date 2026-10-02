@@ -37,7 +37,7 @@ export function Footer({ business, contact, social, footer }) {
       </div>
     </div>
     <div class="mt-14 flex flex-col gap-3 border-t border-on-ink/15 pt-6 text-xs sm:flex-row sm:justify-between">
-      <p>&copy; ${year} ${esc(footer.copyrightName)}. ${esc(footer.copyrightSuffix)}</p>
+      <p>&copy; ${year} ${esc(footer.copyrightName)}. ${esc(footer.copyrightSuffix)} <a href="/privacy/" class="underline underline-offset-4">${esc(footer.privacyLabel)}</a></p>
       <a href="#top" class="inline-flex items-center gap-2 text-on-ink hover:underline">${esc(footer.backToTopLabel)} ${icon('arrowUp', 'h-4 w-4')}</a>
     </div>
     <p class="-mb-[0.18em] mt-8 select-none whitespace-nowrap font-heading text-[clamp(3rem,15vw,13rem)] font-light leading-none tracking-tight text-on-ink/10" aria-hidden="true">${esc(business.name)}</p>
